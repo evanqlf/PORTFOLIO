@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(197, 192, 192);
+    padding: 1px;
+    margin-bottom: 10%;
+    text-align: center;
+    width: 100%;
+
+    img {
+        padding: 5px; 
+    }
+
+}
+
+h1 {
+    font-size: 20px;
+    margin: 10px;
+}
+
+body {
+    background-color: rgb(152, 150, 150);
+    width: 1263px;
+    margin: auto;
+}
+
+.div2 {
+    text-align: center;
+    margin: 90px;
+    line-height: 32px;
+}
+
+.button {
+    display: inline-block;
+    margin: auto;
+    padding: 10px 23px;
+    font-size: 15px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    transform: translateY(-30px);
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: dashed;
+    font-weight: bold;
+}
+
+.sect2{
+    background-color: aqua;
+
+    .para1{
+        max-width: 600px;
+        margin: 100px;
+    }
+
+    .div3 {
+        text-align: center;
+    }
+
+    .presentation {
+        display: flex;
+        justify-content: center
+        align-items:center;
+        gap: 30px;    
+        text-align: left;        
+        padding: 20px;
+    }
+
+    .imgia {
+        width: 400px;
+        height: auto;
+        border-radius: 10px;
+        display: flex;
+        margin: 60px;
+    }
+}
+
+.sect3{
+    background-color: burlywood;
+    .card {
+        background-color: rgba(255, 255, 255, 0.616);
+        justify-content: center;
+        height: 300px;
+        width: 24%;
+        padding: 40px;
+        margin: 50px auto;
+        border-radius: 70px;
+        text-align: center;
+        display: inline-block;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 100px;
+    }
+
+    #titreCard{
+        color: #000000;
+        margin:20px;
+        }
+    
+    #html{
+        color: blue;
+        margin: 5px;
+    }
+
+    #css{
+        color: blue;
+        margin: 5px;
+    }
+
+    #JS{
+        color: blue;
+        margin: 5px;
+    }
+
+    h5{
+        margin:15px
+    }
+
+    .div5{
+        text-align: center;
+        margin: 20px;
+    }
+}
+
+.sect4{
+    margin: left;
+    background-color: brown;
+    .card {
+        background-color: rgba(255, 255, 255, 0.616);
+        justify-content: center;
+        height: 300px;
+        width: 24%;
+        padding: 40px;
+        margin: 50px auto;
+        border-radius: 70px;
+        text-align: center;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        margin-left: 100px;
+    }
+
+    #titreCard{
+        color: #000000;
+        margin:20px;
+        }
+    
+    #Figma{
+        color: blue;
+        margin: 15px;
+    }
+
+    #PS{
+        color: blue;
+        margin: 15px;
+    }
+
+    .miniText{
+        margin:30px
+    }
+    .div5{
+        text-align: center;
+    }
+}
+
+.sect5{
+    background-color: #1c6ce3;
+    .div4{
+        text-align: center;
+    }
+    .boutons{
+        display: flex;
+        align-items: center;
+    }
+
+    .formation-card {
+        background-color: #1c6ce3;
+        padding: 25px;
+        text-align: center;
+        border-radius: 80px;
+        width: 250px;
+        margin: 20px;
+        margin-left: 13%;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      }
+
+    .pro-card{
+        background-color: #1c6ce3;
+        padding: 25px;
+        text-align: center;
+        border-radius: 80px;
+        width: 250px;
+        margin: 20px;
+        margin-left: 63%;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        
+      }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen {
+    
+}
