@@ -22,7 +22,7 @@ h1 {
 }
 
 body {
-    background-color: rgb(152, 150, 150);
+    background-color: rgb(26, 25, 25);
     width: 1263px;
     margin: auto;
 }
@@ -31,6 +31,7 @@ body {
     text-align: center;
     margin: 90px;
     line-height: 32px;
+    color: #b6b3b3;
 }
 
 .button {
@@ -38,8 +39,8 @@ body {
     margin: auto;
     padding: 10px 23px;
     font-size: 15px;
-    background-color: #000000;
-    color: #fff;
+    background-color: rgb(197, 192, 192);
+    color: #000000;
     border: none;
     border-radius: 20px;
     transform: translateY(-30px);
@@ -50,15 +51,18 @@ body {
 }
 
 .sect2{
-    background-color: aqua;
+    background-color: rgb(26, 25, 25);
 
     .para1{
         max-width: 600px;
         margin: 100px;
+        color: #b6b3b3;
+        line-height: 160%;
     }
 
     .div3 {
         text-align: center;
+        color: #b6b3b3;
     }
 
     .presentation {
@@ -77,12 +81,28 @@ body {
         display: flex;
         margin: 60px;
     }
+
+    .cvbouton {
+        display: inline-block;
+        margin: auto;
+        padding: 10px 23px;
+        font-size: 15px;
+        background-color: rgb(197, 192, 192);
+        color: #000000;
+        border: none;
+        border-radius: 20px;
+        transform: translateY(-30px);
+        cursor: pointer;
+        transition: background-color 0.3s;
+        text-decoration: dashed;
+        font-weight: bold;
+    }
 }
 
 .sect3{
-    background-color: burlywood;
+    background-color: rgb(26, 25, 25);
     .card {
-        background-color: rgba(255, 255, 255, 0.616);
+        background-color: #0a0f98;
         justify-content: center;
         height: 300px;
         width: 24%;
@@ -97,22 +117,22 @@ body {
     }
 
     #titreCard{
-        color: #000000;
+        color: #ffffff;
         margin:20px;
         }
     
     #html{
-        color: blue;
+        color: rgb(0, 0, 0);
         margin: 5px;
     }
 
     #css{
-        color: blue;
+        color: rgb(0, 0, 0);
         margin: 5px;
     }
 
     #JS{
-        color: blue;
+        color: rgb(0, 0, 0);
         margin: 5px;
     }
 
@@ -123,12 +143,13 @@ body {
     .div5{
         text-align: center;
         margin: 20px;
+        color: #ffffff;
     }
 }
 
 .sect4{
     margin: left;
-    background-color: brown;
+    background-color: rgb(26, 25, 25);
     .card {
         background-color: rgba(255, 255, 255, 0.616);
         justify-content: center;
@@ -145,17 +166,17 @@ body {
     }
 
     #titreCard{
-        color: #000000;
+        color: #ffffff;
         margin:20px;
         }
     
     #Figma{
-        color: blue;
+        color: rgb(255, 255, 255);
         margin: 15px;
     }
 
     #PS{
-        color: blue;
+        color: rgb(255, 255, 255);
         margin: 15px;
     }
 
@@ -168,9 +189,10 @@ body {
 }
 
 .sect5{
-    background-color: #1c6ce3;
+    background-color: rgb(26, 25, 25);
     .div4{
         text-align: center;
+        color: #ffffff;
     }
     .boutons{
         display: flex;
@@ -178,7 +200,7 @@ body {
     }
 
     .formation-card {
-        background-color: #1c6ce3;
+        background-color: #0a0f98;
         padding: 25px;
         text-align: center;
         border-radius: 80px;
@@ -189,7 +211,7 @@ body {
       }
 
     .pro-card{
-        background-color: #1c6ce3;
+        background-color: #0a0f98;
         padding: 25px;
         text-align: center;
         border-radius: 80px;
@@ -199,6 +221,89 @@ body {
         box-shadow: 0 5px 15px rgba(0,0,0,0.2);
         
       }
+}
+
+.sect6{
+    color: #ffffff;
+
+}
+
+.contact{
+    color: #ffffff;
+    text-align: center;
+    margin: 30px;
+}
+
+.sect7 {
+    width: 400px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 50px;
+
+    
+    .form-row {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .form-row .form-group {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .form-group h3 {
+        margin: 10px 0 5px;
+        font-size: 16px;
+    }
+    
+    .form-group input[type="text"] {
+        padding: 8px;
+        box-sizing: border-box;
+    }
+    
+    #message-group {
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #envoyer {
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    #envoyer:hover {
+        background-color: #45a049;
+    }
+    
+    .contact {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffffdc;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    
+    .phrasedaccroche {
+        font-size: 16px;
+        margin: 0;
+    }
 }
 
 
